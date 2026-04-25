@@ -1,0 +1,26 @@
+export default function JayEarnWebsite() {
+  return (
+    <div className="min-h-screen bg-black text-white font-sans">
+
+      <header className="flex items-center justify-between px-8 py-6 border-b border-yellow-600">
+        <h1 className="text-3xl font-bold text-yellow-400">JayEarn.com</h1>
+        <nav className="flex gap-6">
+          <a href="#">Home</a>
+          <a href="#">Offers</a>
+          <a href="#">Games</a>
+          <a href="#">Withdraw</a>
+        </nav>
+      </header>
+
+      <section className="text-center py-20">
+        <h2 className="text-4xl font-bold">
+          Earn Money by Playing Games & Taking Surveys
+        </h2>
+        <p className="text-gray-300 mt-4">
+          Complete tasks and withdraw via M-Pesa or PayPal
+        </p>
+      </section>
+
+    </div>
+  );
+}
